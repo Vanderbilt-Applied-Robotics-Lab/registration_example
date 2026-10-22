@@ -6,7 +6,7 @@
 
 
 /**
- * Example of using Arun registration
+ * Example of Arun registration
  * Applied Robotics
  * Author: Garrison Johnston
  */

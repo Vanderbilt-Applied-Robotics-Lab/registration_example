@@ -5,6 +5,13 @@ ArunReg::ArunReg() : Node("arun_reg")
     // setup robot points
     
     // setup workpiece points
+    p_w_[0] << 1.0001, -0.0002, 2.0002;
+    p_w_[1] << -0.0001, 0.7072, 2.7070;
+    p_w_[2] << 0.001, -0.7070, 2.7072;
+
+    // setup new point
+    p_r_new_ << 0.7071, 0.7071, 0;
+    p_w_new_ << 0.7071, 0.5, 2.5;
 }
 
 void ArunReg::registerPoints()
